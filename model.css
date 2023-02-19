@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background: linear-gradient(90deg, rgba(115,0,255,1) 0%, rgba(226,0,218,1) 85%);
+    font-size: var(--body-font);
+   
+    background-color: hsla(281, 99%, 41%, 0.396);
+   
+}
+a{
+    text-decoration:none;
+}
+.card__name{
+    color: aliceblue;
+}
+ul{
+    list-style: none;
+}
+img{
+    max-width:100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow:0 8px 16px hsla(0, 0%, 0%, 0.567);
+}
+.container{
+    height: 100vh;
+    margin-inline:1.5ram;
+    display:gird;
+    place-items:center;
+    margin-top: 80px;
+    margin-left: 50px;
+    
+}
+
+.menu{
+ display: flex;
+ list-style: none;
+margin-left: 50rem;
+}
+.menu li{
+    margin-left: 2rem;
+    
+}
+.menu li a{
+color: aliceblue;
+}
+.menu li a:hover{
+color: rgb(238, 255, 0);
+}
+
+.card{
+    margin-left: 2rem;
+    width:256px;
+    background-color: var(--black-color);
+    padding:1.25rem 2rem 3rem;
+    border-radius:1.5rem;
+    text-align: center;
+    box-shadow:0 4px 16px hsla(29, 75%, 8% ,0.2);
+}
+.text{
+    width: 500px;
+    height: 400px;
+    background-color: var(--black-color);
+    display: flex;
+    margin-left: 40rem;
+    margin-top: -34%;
+    font-family: fantasy , PB warnjai;
+    text-align: center;
+    
+}
+.textmail{
+    font-size: 90px;
+    color: aliceblue;
+}
+.textdeal{
+    width: 500px;
+    height: 20px;
+ 
+    display: flex;
+    margin-left: 40rem;
+    margin-top: -20%;
+    font-family: Lillstripe;
+}
+.textdeal2{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+.textdea{
+    width: 500px;
+    height: 20px;
+
+    display: flex;
+    margin-left: 40rem;
+    
+    font-family: Signatrue;
+}
+.textdeal3{
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+}
